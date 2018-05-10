@@ -1,14 +1,11 @@
 #---------------------------------------------------------------------------------------------------------------
 # Name:        Sokoban GUI Puzzle
-# Purpose:     Position three moveable blocks from level on the ending zone to
-#              complete the level.
+# Purpose:     Plays a single iteration of Sokoban. I intend to edit this code in the future to allow for any
+#              map iteration to be passed as input.
 # Author:      Travis
 #
 # Created:     04/17/2018
 #---------------------------------------------------------------------------------------------------------------
-
-##To-do before turning in: more descript variable input names, descriptions for all functions, update
-##win-check function to handle more varied translate configurations, eliminate unecessary extra text prints
 
 def printsep(number=92): print("-"*number)
 def space(number=1): print("\n"*number)
